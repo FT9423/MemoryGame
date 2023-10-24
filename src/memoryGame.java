@@ -1,4 +1,4 @@
-//Stores list and that list to be manipulated
+//Stores list and allows that list to be manipulated
 import java.util.ArrayList;
 //Functions as a wrapper
 import java.util.Collections;
@@ -59,7 +59,7 @@ public class memoryGame {
         System.out.println("Congratulations, you won!");
     }
 
-    //Allowes user to choose card by index while giving errors for duplicate choices and invalid entries
+    //Allows user to choose card by index while giving errors for duplicate choices and invalid entries
     public static int getCardIndex(Scanner scanner,String[] board,boolean[] flipped,String prompt){
         int index;
         while (true) {
